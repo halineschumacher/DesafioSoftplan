@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\12376\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\12376\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DesafioSoftplan.-1973430154.00" t="ExcludeRecursive" />
+    <e p="C:\Users\12376\Documents\DesafioSoftplan" t="IncludeFlat">
+      <e p="1. TaxaDeJuros" t="Include">
+        <e p="1.1 Presentation" t="Include" />
+        <e p="1.2 Services" t="Include" />
+        <e p="1.3 Domain" t="Include" />
+        <e p="1.4 Infra" t="Include" />
+      </e>
+      <e p="2. CalculaJuros" t="Include">
+        <e p="2.1 Presentation" t="Include" />
+        <e p="2.2 Services" t="Include" />
+        <e p="2.3 Domain" t="Include" />
+        <e p="2.4 Infra" t="Include" />
+      </e>
+      <e p="3. Contratos" t="Include" />
+      <e p="CalculaJuros.Api" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CalculaJuros.Api.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CalculaJurosController.cs" t="Include" />
+          <e p="ShowMeTheCodeController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="CalculaJuros.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="CalculaJuros.Domain" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CalculaJuros.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="CalculaJuros.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CalculaJuros.Infra" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CalculaJuros.Infra.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="Conversao.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="CalculaJuros.Infra.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CalculaJuros.Services" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CalculaJuros.Services.csproj" t="IncludeRecursive" />
+        <e p="CalculaJurosServices.cs" t="Include" />
+        <e p="Client" t="Include">
+          <e p="IRetornaTaxaJurosClient.cs" t="Include" />
+          <e p="RetornaTaxaJurosClient.cs" t="Include" />
+        </e>
+        <e p="ICalculaJurosServices.cs" t="Include" />
+        <e p="Ioc" t="Include">
+          <e p="IocServices.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="CalculaJuros.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Contratos" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contratos.csproj" t="IncludeRecursive" />
+        <e p="Errors" t="Include">
+          <e p="ErrorBase.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="ITaxaDeJuros.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="TaxaJurosModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Contratos.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesafioSoftplan.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TaxaDeJuros.Api" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="Base" t="Include">
+            <e p="ApiBaseController.cs" t="Include" />
+          </e>
+          <e p="TaxaDeJurosController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="TaxaDeJuros.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TaxaDeJuros.Api.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxaDeJuros.Domain" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Builders" t="Include">
+          <e p="IBuilder.cs" t="Include" />
+          <e p="ITaxaDeJurosBuilder.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="TaxaDeJuros.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxaDeJuros.cs" t="Include" />
+        <e p="TaxaDeJuros.Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxaDeJuros.Infra" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants" t="Include">
+          <e p="TaxaDeJurosConstants.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="ITaxaDeJurosContext.cs" t="Include" />
+          <e p="TaxaDeJurosContext.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="TaxaDeJuros.Infra.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxaDeJuros.Infra.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TaxaDeJuros.Services" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ioc" t="Include">
+          <e p="IocServices.cs" t="Include" />
+        </e>
+        <e p="ITaxaDeJurosServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="TaxaDeJuros.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TaxaDeJuros.Services.csproj" t="IncludeRecursive" />
+        <e p="TaxaDeJurosServices.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

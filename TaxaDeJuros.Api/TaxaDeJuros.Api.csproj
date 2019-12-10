@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TaxaDeJuros.Services\TaxaDeJuros.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Controllers\Base\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Controllers\Base\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Controllers\Base\**" />
+    </ItemGroup>
+
+</Project>
