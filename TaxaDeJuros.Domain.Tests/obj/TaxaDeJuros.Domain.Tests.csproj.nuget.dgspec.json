@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain.Tests/TaxaDeJuros.Domain.Tests.csproj": {}
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain.Tests\\TaxaDeJuros.Domain.Tests.csproj": {}
   },
   "projects": {
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/Contratos.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\Contratos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/Contratos.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\Contratos.csproj",
         "projectName": "Contratos",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/Contratos.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\Contratos.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,36 +55,61 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain.Tests/TaxaDeJuros.Domain.Tests.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain.Tests\\TaxaDeJuros.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain.Tests/TaxaDeJuros.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain.Tests\\TaxaDeJuros.Domain.Tests.csproj",
         "projectName": "TaxaDeJuros.Domain.Tests",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain.Tests/TaxaDeJuros.Domain.Tests.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain.Tests/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain.Tests\\TaxaDeJuros.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj"
               },
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/TaxaDeJuros.Services.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/TaxaDeJuros.Services.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\TaxaDeJuros.Services.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\TaxaDeJuros.Services.csproj"
               }
             }
           }
@@ -119,33 +149,58 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj",
         "projectName": "TaxaDeJuros.Domain",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/Contratos.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/Contratos/Contratos.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\Contratos.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\Contratos\\Contratos.csproj"
               }
             }
           }
@@ -167,33 +222,58 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj",
         "projectName": "TaxaDeJuros.Infra",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Domain/TaxaDeJuros.Domain.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Domain\\TaxaDeJuros.Domain.csproj"
               }
             }
           }
@@ -225,33 +305,58 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/TaxaDeJuros.Repository.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\TaxaDeJuros.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/TaxaDeJuros.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\TaxaDeJuros.Repository.csproj",
         "projectName": "TaxaDeJuros.Repository",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/TaxaDeJuros.Repository.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\TaxaDeJuros.Repository.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj"
               }
             }
           }
@@ -273,36 +378,61 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/TaxaDeJuros.Services.csproj": {
+    "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\TaxaDeJuros.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/TaxaDeJuros.Services.csproj",
+        "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\TaxaDeJuros.Services.csproj",
         "projectName": "TaxaDeJuros.Services",
-        "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/TaxaDeJuros.Services.csproj",
-        "packagesPath": "/Users/halineschumacher/.nuget/packages/",
-        "outputPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Services/obj/",
+        "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\TaxaDeJuros.Services.csproj",
+        "packagesPath": "C:\\Users\\12376\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/halineschumacher/.config/NuGet/NuGet.Config"
+          "C:\\Users\\12376\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Infra/TaxaDeJuros.Infra.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Infra\\TaxaDeJuros.Infra.csproj"
               },
-              "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/TaxaDeJuros.Repository.csproj": {
-                "projectPath": "/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/TaxaDeJuros.Repository.csproj"
+              "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\TaxaDeJuros.Repository.csproj": {
+                "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Repository\\TaxaDeJuros.Repository.csproj"
               }
             }
           }
@@ -324,7 +454,27 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

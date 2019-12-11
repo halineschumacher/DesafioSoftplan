@@ -17,14 +17,14 @@ namespace CalculaJuros.Services
             _retornaTaxaJurosClient = retornaTaxaJurosClient;
         }
 
-        public decimal GetValor(decimal valorInicial, int meses)
+        public async Task<decimal> GetValor(decimal valorInicial, int meses)
         {
             try
             {
                 if (valorInicial <= 0)
                     throw new InvalidOperationException("É necessário informar o valor inicial para o cálculo.");
 
-                var taxaJuros = GetAsync().Result;
+                var taxaJuros = await GetAsync();
                 var resultado = Calcular(valorInicial, taxaJuros.Valor, meses);
                 return new Conversao().TruncaDecimalInTwoPlaces(resultado);
             }

@@ -1,0 +1,82 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Api.IntegrationTests\\TaxaDeJuros.Api.IntegrationTests.csproj",
+    "projectName": "TaxaDeJuros.Api.IntegrationTests",
+    "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Api.IntegrationTests\\TaxaDeJuros.Api.IntegrationTests.csproj",
+    "outputPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Api.IntegrationTests\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Api\\TaxaDeJuros.Api.csproj": {
+            "projectPath": "C:\\Users\\12376\\Documents\\DesafioSoftplan\\TaxaDeJuros.Api\\TaxaDeJuros.Api.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.TestHost": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.2.0, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.1, )"
+        },
+        "RestSharp": {
+          "target": "Package",
+          "version": "[106.6.10, )"
+        },
+        "coverlet.collector": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.extensibility.core": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

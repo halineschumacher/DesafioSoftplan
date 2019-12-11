@@ -1,34 +1,42 @@
 using TaxaDeJuros.Repository;
+using Assert = Xunit.Assert;
+using Moq;
 using Xunit;
 
 namespace TaxaDeJuros.Services.Tests
 {
     public class ServicesTests
     {
-        [Theory]
-        [InlineData(-5.001)]
-        [InlineData(0.1)]
-        [InlineData(0)]
-        [InlineData(12.0000001)]
-        [InlineData(1.1)]
-        [InlineData(-1.5)]
-        [InlineData(0.01)]
-        public void TesteTheory(decimal valor)
-        {
-            //var tx = new TaxaDeJurosServices();
-            //var value = tx.GetValor();
-
-            //Assert.Equal(value, valor);
-        }
+        private Mock<ITaxaDeJurosRepository> _mockRepository;
+        private decimal valorEsperado = 0.01M;
         
-        [Fact]
-        public void TesteFact()
+        [Theory]
+        [InlineData(0.01)]        
+        public void TheoryTest(decimal valor)
         {
-            //var tx = new TaxaDeJurosServices(new TaxaDeJurosRepository());
-            //var value = tx.GetValor();
+            _mockRepository = new Mock<ITaxaDeJurosRepository>();
 
-            //Assert.Equal(0.01M, value);
+            _mockRepository.Setup(s => s.GetValorTaxaDeJurosPadrao())
+                .Returns(() => valorEsperado);
+
+            var services = new TaxaDeJurosServices(_mockRepository.Object);
+            decimal result = services.GetValor();
+
+            Assert.Equal(valor, result);
         }
 
+        [Fact]
+        public void FactTest()
+        {
+            _mockRepository = new Mock<ITaxaDeJurosRepository>();
+            
+            _mockRepository.Setup(s => s.GetValorTaxaDeJurosPadrao())
+                .Returns(() => valorEsperado);
+
+            var services = new TaxaDeJurosServices(_mockRepository.Object);
+            decimal result = services.GetValor();
+            
+            Assert.Equal(0.01M, result);
+        }
     }
 }
