@@ -1,12 +1,18 @@
-using TaxaDeJuros.Infra.CrossCutting;
+using TaxaDeJuros.Repository;
 
 namespace TaxaDeJuros.Services
 {
     public class TaxaDeJurosServices : ITaxaDeJurosServices
     {
+        private readonly ITaxaDeJurosRepository _taxaDeJurosRepository;
+        public TaxaDeJurosServices(ITaxaDeJurosRepository taxaDeJurosRepository)
+        {
+            _taxaDeJurosRepository = taxaDeJurosRepository;
+        }
+        
         public decimal GetValor()
         {
-            return TaxaDeJurosConstants.ValorDaTaxaDeJuros;
+            return _taxaDeJurosRepository.GetValorTaxaDeJurosPadrao();
         }
     }
 }

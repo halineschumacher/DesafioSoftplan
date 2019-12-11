@@ -4,8 +4,8 @@ namespace TaxaDeJuros.Domain
 {
     public class TaxaDeJuros : ITaxaDeJuros
     {
-        private int Id { get; set; }
-        private decimal Valor { get; set; }
+        public int Id { get; set; }
+        public decimal Valor { get; set; }
 
         public decimal Get() => Valor;
         

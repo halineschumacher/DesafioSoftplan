@@ -10,6 +10,13 @@ namespace TaxaDeJuros.Infra.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(TaxaDeJurosContext).Assembly);
+            base.OnModelCreating(modelBuilder);
+            
+        }
+
         public DbSet<Domain.TaxaDeJuros> TaxaDeJuros { get; set; }
 
         public override int SaveChanges()

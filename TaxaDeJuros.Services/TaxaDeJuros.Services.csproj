@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TaxaDeJuros.Infra\TaxaDeJuros.Infra.csproj" />
+      <ProjectReference Include="..\TaxaDeJuros.Repository\TaxaDeJuros.Repository.csproj" />
     </ItemGroup>
 
 </Project>

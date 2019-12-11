@@ -1,0 +1,15 @@
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Repository.deps.json
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Repository.dll
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Repository.pdb
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/Contratos.dll
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Domain.dll
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Infra.dll
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Infra.pdb
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/Contratos.pdb
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/bin/Debug/netcoreapp3.0/TaxaDeJuros.Domain.pdb
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.csprojAssemblyReference.cache
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.AssemblyInfoInputs.cache
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.AssemblyInfo.cs
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.csproj.CopyComplete
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.dll
+/Users/halineschumacher/RiderProjects/DesafioSoftplan/TaxaDeJuros.Repository/obj/Debug/netcoreapp3.0/TaxaDeJuros.Repository.pdb
